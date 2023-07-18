@@ -1,0 +1,16 @@
+Leia 3 valores de ponto flutuante A, B e C. Nenhum dos três valores pode ser menor que zero. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada:
+
+se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
+se A^2 = B^2 + C^2, apresente a mensagem: TRIANGULO RETANGULO
+se A^2 > B^2 + C^2, apresente a mensagem: TRIANGULO OBTUSANGULO
+se A^2 < B^2 + C^2, apresente a mensagem: TRIANGULO ACUTANGULO
+se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO
+se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
+
+Faça uso de classes com atributos privados e, ao menos, um método.
+
+Entrada
+A entrada contem três valores de ponto flutuante de dupla (double com duas casas) precisão A (0 < A) , B (0 < B) e C (0 < C). O programa verifica se os valores são positivos. Se houver valores negativos, solicita que o usuário digite um novo valor que seja aior do que zero.
+
+Saída
+Imprima todas as classificações do triângulo especificado na entrada.
